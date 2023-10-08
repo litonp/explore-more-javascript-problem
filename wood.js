@@ -13,8 +13,6 @@ function woodCalculator(chairQuantity, tableQuantity, bedQuantity) {
     const perTableWood = 10;
     const perBedWood = 50;
 
-    console.log(chairQuantity, tableQuantity, bedQuantity);
-
     const chairWood = chairQuantity * perChairWood;
     const tableWood = tableQuantity * perTableWood;
     const bedWood = bedQuantity * perBedWood;
